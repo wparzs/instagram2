@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambiado para alinear al inicio */
+    height: auto; /* Permitir que la altura se ajuste al contenido */
+    min-height: 100vh; /* Asegura que el contenido no se corte */
+    position: relative; /* Para permitir el posicionamiento absoluto del footer */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambiado para alinear al inicio */
+    width: 100%;
+    flex-direction: row; /* Alineación horizontal */
+    margin-top: 50px; /* Añadido margen superior para separar del top */
+}
+
+.phone-left img {
+    height: 600px;
+    width: auto;
+    margin-right: 40px; /* Ajustado para estar más a la derecha */
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.login-box {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 38px;
+   
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px; /* Añadimos más espacio arriba */
+}
+
+.logo img {
+    width: 178px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 12px;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: #65b1e3;
+    color: white;
+    padding: 8.5px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-login:hover {
+    background-color: #007bb5;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.divider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider .or {
+    margin: 0 10px;
+    color: #888888;
+    font-weight: bold;
+    font-size: 12.3px;
+}
+
+.login-with-fb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #324774;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+
+    
+}
+
+.login-with-fb img {
+    width: 20px;
+    margin-right: 10px;
+
+}
+
+.forgot-password {
+    color: #3b4c5d;
+    font-size: 12px;
+    margin-left: 60px; /* Ajusta este valor según lo que necesites */
+}
+
+.forgot-password a {
+    text-decoration: none !important;/* Elimina el subrayado del enlace */
+}
+
+.signup-box {
+    width: 350px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+    font-size: 13.3px;
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.app-links {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.app-links p {
+    font-size: 13.3px;
+    color: #101010;
+}
+
+.app-icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-icons img {
+    width: 136px; /* Puedes ajustar el tamaño */
+    cursor: pointer;
+}
+
+.app-icons img:hover {
+    opacity: 0.8; /* Efecto al pasar el cursor por encima */
+}
+
+.app-icons-container1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-icons1 img {
+    width: 109.5px; /* Puedes ajustar el tamaño */
+    cursor: pointer;
+}
+
+.app-icons1 img:hover {
+    opacity: 0.8; /* Efecto al pasar el cursor por encima */
+}
+
+.footer {
+    background-color: #f7f7f7 !important;
+    padding: 10px !important; /* Menor padding */
+    text-align: center !important;
+    font-size: 12px !important; /* Texto más pequeño */
+    color: #999 !important;
+    border-top: 1px solid #e6e6e6 !important;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    position: absolute; /* Posicionamiento absoluto para que esté al final */
+    bottom: 0; /* Coloca el footer al final de la página */
+}
+
+.footer a {
+    color: #858585 !important;
+    text-decoration: none !important;
+    margin: 0 5px !important;
+}
+
+.footer a:hover {
+    text-decoration: underline !important;
+}
+
+.footer-rights {
+    margin-top: 5px; /* Espacio entre renglones */
+}
